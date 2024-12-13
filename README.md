@@ -61,8 +61,8 @@ Maintenant il vous reste plus qu'à compiler le projet sur QT et d'effectuer des
     Une fois la compilation terminée, cliquez sur le bouton Exécuter pour lancer l'application.
 
 5.Tester l'Application
-    Les information de votre base de donnés est sensé apparaitre.
-    Modifiez les notes dans la table ou changez la depuis l'interface QT pour ajuster la note d'un joueur.
-    Lorsque vous changez la note sur QT,vous devez refaire la commande
+Les information de votre base de donnés est sensé apparaitre.
+Modifiez les notes dans la table ou changez la depuis l'interface QT pour ajuster la note d'un joueur.
+Lorsque vous changez la note sur QT,vous devez refaire la commande
         Select *from jeu;
-    afin de voir la nouvelle note
+afin de voir la nouvelle note
