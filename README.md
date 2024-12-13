@@ -22,11 +22,13 @@ Suivez ces instruction pour éxécuter mon projet.
 Créer la base de données jeu
     Connectez-vous à votre serveur MySQL avec un outil comme MySQL Workbench ou en utilisant la ligne de commande.
     Exécutez la commande SQL suivante pour créer la base de données et la table jeu :
-
+Ce projet consiste à créer une base de données MySQL appelée jeu avec une table jeu contenant les colonnes suivantes :
 
     nom : le nom du joueur.
     club : le club auquel appartient le joueur.
     note : une note entre 0 et 100 pour chaque joueur.
+
+Ensuite, nous utiliserons Qt pour créer une interface permettant de modifier la note d'un joueur, et de sauvegarder cette modification directement dans la base de données MySQL.
    
     CREATE DATABASE jeu;
 
