@@ -2,7 +2,7 @@
 Objectif
 Ce projet consiste à créer une base de données MySQL appelée jeu avec une table jeu contenant les colonnes suivantes :
 
-nom : le nom du joueur.
+    nom : le nom du joueur.
     club : le club auquel appartient le joueur.
     note : une note entre 0 et 100 pour chaque joueur.
 
