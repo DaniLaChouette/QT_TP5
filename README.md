@@ -64,5 +64,5 @@ Maintenant il vous reste plus qu'à compiler le projet sur QT et d'effectuer des
 Les information de votre base de donnés est sensé apparaitre.
 Modifiez les notes dans la table ou changez la depuis l'interface QT pour ajuster la note d'un joueur.
 Lorsque vous changez la note sur QT,vous devez refaire la commande
-        Select *from jeu;
+    Select *from jeu;
 afin de voir la nouvelle note
