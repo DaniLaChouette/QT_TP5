@@ -20,8 +20,9 @@ Suivez ces instruction pour éxécuter mon projet.
 
 1. Créer la base de données MySQL
 Créer la base de données jeu
-    Connectez-vous à votre serveur MySQL avec un outil comme MySQL Workbench ou en utilisant la ligne de commande.
-    Exécutez la commande SQL suivante pour créer la base de données et la table jeu :
+
+Connectez-vous à votre serveur MySQL avec un outil comme MySQL Workbench ou en utilisant la ligne de commande.
+Exécutez la commande SQL suivante pour créer la base de données et la table jeu :
    
     CREATE DATABASE jeu;
 
