@@ -23,6 +23,11 @@ Créer la base de données jeu
     Connectez-vous à votre serveur MySQL avec un outil comme MySQL Workbench ou en utilisant la ligne de commande.
     Exécutez la commande SQL suivante pour créer la base de données et la table jeu :
 
+
+    nom : le nom du joueur.
+    club : le club auquel appartient le joueur.
+    note : une note entre 0 et 100 pour chaque joueur.
+   
     CREATE DATABASE jeu;
 
     USE jeu;
