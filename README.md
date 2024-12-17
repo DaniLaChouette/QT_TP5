@@ -21,24 +21,12 @@ Suivez ces instruction pour éxécuter mon projet.
 1. Créer la base de données MySQL
 Créer la base de données jeu
 
-Connectez-vous à votre serveur MySQL avec un outil comme MySQL Workbench ou en utilisant la ligne de commande.
+Connectez-vous à votre serveur MySQL en utilisant la ligne de commande.
 Exécutez la commande SQL suivante pour créer la base de données et la table jeu :
    
     CREATE DATABASE jeu;
 
-    USE jeu;
-
-    CREATE TABLE jeu (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        nom VARCHAR(100) NOT NULL,
-        club VARCHAR(100) NOT NULL,
-        note INT CHECK(note BETWEEN 0 AND 100)
-    );
-
-    INSERT INTO jeu (nom, club, note)
-    VALUES ('Messi', 'PSG', 99);
-
-Cette commande crée une base de données jeu et une table jeu avec les colonnes id, nom, club, et note.
+Cette commande crée une base de données jeu.
 
 
 2. Ouvrir le projet dans Qt Creator
