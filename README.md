@@ -27,6 +27,13 @@ Exécutez la commande SQL suivante pour créer la base de données et la table j
     CREATE DATABASE jeu;
 
 Cette commande crée une base de données jeu.
+Une fois la base de donnees cree il faut ensuite utilisez le fichier :
+
+    jeu.sql
+
+en utilisant la commande :
+
+    mysql -u [votre_utilisateur] -p [nom_de_base_de_donnees] < C:\chemin\vers\votre\fichier\jeu.sql
 
 
 2. Ouvrir le projet dans Qt Creator
