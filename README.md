@@ -1,5 +1,5 @@
 # QT_TP5
-Objectif
+Objectif:
 Ce projet consiste à créer une base de données MySQL appelée jeu avec une table jeu contenant les colonnes suivantes :
 
     nom : le nom du joueur.
