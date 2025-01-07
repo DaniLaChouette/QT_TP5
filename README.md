@@ -1,5 +1,5 @@
 # QT_TP5
-Objectif:
+## Objectif :
 Ce projet consiste à créer une base de données MySQL appelée jeu avec une table jeu contenant les colonnes suivantes :
 
     nom : le nom du joueur.
@@ -18,7 +18,7 @@ Maintenant, installer mes fichiers présent dans ce répertoire.
 
 Suivez ces instruction pour éxécuter mon projet.
 
-1. Créer la base de données MySQL
+## 1. Créer la base de données MySQL
 Créer la base de données jeu
 
 Connectez-vous à votre serveur MySQL en utilisant la ligne de commande.
@@ -36,13 +36,13 @@ en utilisant la commande :
     mysql -u [votre_utilisateur] -p [nom_de_base_de_donnees] < C:\chemin\vers\votre\fichier\jeu.sql
 
 
-2. Ouvrir le projet dans Qt Creator
+## 2. Ouvrir le projet dans Qt Creator
 
     Ouvrez Qt Creator.
     Cliquez sur Fichier > Ouvrir le projet... et sélectionnez le fichier .pro de votre projet (votre-projet.pro).
     Qt Creator va analyser et configurer le projet automatiquement.
 
-3.Dans mes fichier .cpp faites en sorte que la connexion à la base de donnés soit bien mis avec vos information 
+## 3.Dans mes fichier .cpp faites en sorte que la connexion à la base de donnés soit bien mis avec vos information 
 
     db.setDatabaseName("jeu");  // Nom de la base de données
     db.setUserName("etudiant"); // Nom d'utilisateur pour se connecter
@@ -51,11 +51,11 @@ Quand vous voyez ceci ils faut que vous mettez vos information de votre base de 
 
 Maintenant il vous reste plus qu'à compiler le projet sur QT et d'effectuer des test.
 
-4.Compiler et Lancer l'Application
+## 4.Compiler et Lancer l'Application
     Cliquez sur le bouton Compiler dans Qt Creator.
     Une fois la compilation terminée, cliquez sur le bouton Exécuter pour lancer l'application.
 
-5.Tester l'Application
+## 5.Tester l'Application
 Les information de votre base de donnés est sensé apparaitre.
 Modifiez les notes dans la table ou changez la depuis l'interface QT pour ajuster la note d'un joueur.
 Lorsque vous changez la note sur QT,vous devez refaire la commande :
